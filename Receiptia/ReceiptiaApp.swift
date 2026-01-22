@@ -2,7 +2,7 @@
 //  ReceiptiaApp.swift
 //  Receiptia
 //
-//  Created by Nicola on 22/01/26.
+//  Receiptia Genius - AI-Powered Financial Coaching App
 //
 
 import SwiftUI
@@ -12,7 +12,9 @@ import SwiftData
 struct ReceiptiaApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Expense.self,
+            Goal.self,
+            UserProfile.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
