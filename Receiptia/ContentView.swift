@@ -3,7 +3,7 @@
 //  Receiptia
 //
 //  Main entry point view
-//
+// 
 
 import SwiftUI
 import SwiftData
