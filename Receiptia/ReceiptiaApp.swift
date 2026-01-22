@@ -4,7 +4,7 @@
 //
 //  Receiptia Genius - AI-Powered Financial Coaching App
 //  "Spotify Wrapped for your expenses"
-//
+// 
 
 import SwiftUI
 import SwiftData
